@@ -94,3 +94,37 @@ body {
   overflow: hidden;
   background-color: rgb(38, 38, 38);
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    font-family: 'Caveat', serif;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-icons {
+    margin-top: 10px;
+  }
+  
+  .footer-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .footer-icons img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1); /* Makes icons white */
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-icons a:hover img {
+    transform: scale(1.2);
+  }
+  
